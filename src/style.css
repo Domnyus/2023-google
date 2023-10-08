@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.menu_button
+{
+    @apply mx-4 border-white hover:border-b-2 p-1
+}
+
+a.items_box
+{
+    @apply bg-gray-800 rounded-sm cursor-pointer hover:bg-gray-700  transition duration-150 hover:ease-out
+}
+
+a.items_box > div > span
+{
+    @apply bg-gray-900 py-2 px-4 rounded-full
+}
